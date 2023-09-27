@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "trebuchet MS", Helvetica, sans-serif;
+  background: white;
+}
+
+header {
+  height: 150px;
+  /*border: 1px solid red;*/
+  background: url(../imagens/detalhe-topo.png) no-repeat right top;
+  padding-top: 25px;
+}
+body{
+  width: 750px;
+  margin: 0 auto;
+  padding: 1px solid red;
+}
+
+.logo{
+  width: 152px;
+  height: 66px;
+  background: url(../imagens/logo.png) no-repeat center;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul{
+  background: #eeba2b ;
+  margin-top: 30px;
+  float: left;
+}
+header ul li{
+  float: left;
+}
+
+header ul a{
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color:#fff;
+  background: url(../imagens/divisor.png) no-repeat left center;
+}
+header ul .primeiro a{
+  background: none;
+}
+
+header ul a:hover{
+  color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.biografia #navegacao a#biografia,
+body.fotos #navegacao a#fotos
+{
+  color: #fff;
+  background: #f0c243;
+  cursor: text;
+
+}
+
+/* fim de navegação */
+
+
+
+
+
+/* inicio do rodape */
+#container-rodape{
+  background: #eeba2b;
+  padding: 50px;
+  text-transform: uppercase ;
+  text-align: center;
+  font-size: 1.5em;
+}
+/* fim de rodape */
+
+.titulo-bio{
+  margin-top: 60px;
+  text-transform: uppercase ;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+article{
+  width: 750px;
+  padding: 20px;
+
+}
+
+.img-bio{
+  width: 255px;
+  height: 333px;
+  margin-top: 20px;
+  margin-left: 33%;
+}
+
+article h1{
+  text-transform: uppercase ;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  margin: 20px;
+
+}
+
+article p{
+  text-align: justify;
+  letter-spacing: 0.1em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  text-indent:4em
+}
+
+
+#conteudo h1{
+  text-transform: uppercase ;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  margin: 25px;
+
+}
+
+#conteudo h2{
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  margin: 25px;
+}
+
+#conteudo p{
+  text-align: justify;
+  letter-spacing: 0.1em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  text-indent:4em;
+}
+
+#conteudo{
+  padding-bottom: 40px;
+}
+
+/*fim do conteudo da pagina inicial*/
+
+
+/*inicio da pagina fotos*/
+
+#conteudo .img-01, .img-02, .img-03, .img-04{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+
+/*fim da pagina fotos*/
